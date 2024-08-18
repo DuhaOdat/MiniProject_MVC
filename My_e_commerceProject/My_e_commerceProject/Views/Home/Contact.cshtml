@@ -1,0 +1,72 @@
+﻿@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<main>
+
+    <!-- Hero Section -->
+    <div class="hero-area section-bg2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="slider-area">
+                        <div class="slider-height2 slider-bg4 d-flex align-items-center justify-content-center">
+                            <div class="hero-caption hero-caption2 text-center">
+                                <h2>Contact Us</h2>
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb justify-content-center">
+                                        <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact-section bg-light" style="min-height: 100vh; display: flex; align-items: center;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center mb-5">
+                        <h2 class="contact-title mb-4">Get in Touch</h2>
+                        <p class="lead">We'd love to hear from you! Whether you have a question or just want to say hello, feel free to drop us a message below.</p>
+                    </div>
+                    <form class="form-contact contact_form" action="https://preview.colorlib.com/theme/capitalshop/contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-12 mb-3">
+                                <div class="form-group">
+                                    <textarea class="form-control w-100 p-4" name="message" id="message" cols="30" rows="6" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your message...'" placeholder="Enter your message..."></textarea>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <div class="form-group">
+                                    <input class="form-control p-4" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <div class="form-group">
+                                    <input class="form-control p-4" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your email address'" placeholder="Enter your email address">
+                                </div>
+                            </div>
+                            <div class="col-12 mb-4">
+                                <div class="form-group">
+                                    <input class="form-control p-4" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the subject'" placeholder="Enter the subject">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-primary btn-lg px-5">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>

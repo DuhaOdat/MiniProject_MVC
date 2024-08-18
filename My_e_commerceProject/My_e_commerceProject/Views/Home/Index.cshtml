@@ -1,0 +1,275 @@
+﻿@model IEnumerable<My_e_commerceProject.Models.category>
+
+
+@{
+    ViewBag.Title = "KALOS|Jewelery|Store";
+
+
+}
+
+<main>
+    <section class="slider-area ">
+        <div class="slider-active">
+
+            <div class="single-slider slider-bg1 slider-height d-flex align-items-center">
+                <div class="container">
+                    <div class="rowr">
+                        <div class="col-xxl-5 col-xl-6 col-lg-7 col-md-8  col-sm-10">
+                            <div class="hero-caption text-center">
+                                <span>Jewelery Sale</span>
+                                <h1 data-animation="bounceIn" data-delay="0.2s">amazing jewelery Collection</h1>
+                                <p data-animation="fadeInUp" data-delay="0.4s">Explore our exquisite range of luxury jewelry crafted to perfection. Whether you're looking for the perfect gift or treating yourself, our collection offers something truly special.</p>
+                                <a href="#" class="btn_1 hero-btn" data-animation="fadeInUp" data-delay="0.7s">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-slider slider-bg2 slider-height d-flex align-items-center">
+                <div class="container">
+                    <div class="row justify-content-end">
+                        <div class="col-xxl-5 col-xl-6 col-lg-7 col-md-8 col-sm-10">
+                            <div class="hero-caption text-center">
+                                <span>Jewelery Sale</span>
+                                <h1 data-animation="bounceIn" data-delay="0.2s">amazing jewelery Collection</h1>
+                                <p data-animation="fadeInUp" data-delay="0.4s">Explore our exquisite range of luxury jewelry crafted to perfection. Whether you're looking for the perfect gift or treating yourself, our collection offers something truly special.</p>
+                                <a href="#" class="btn_1 hero-btn" data-animation="fadeInUp" data-delay="0.7s">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="items-product1 pt-30">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section-tittle text-center mb-40">
+                        <h2>Our Categories</h2>
+                    </div>
+                </div>
+                @foreach (var item in Model)
+                {
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-items mb-20">
+                            <div class="items-img">
+                                <img src="~/Images/@item.image_url" alt="@item.name">
+                            </div>
+                            <div class="items-details">
+                                <h4>
+                                    <a href="@Url.Action("ShopByCategory", "Home", new { categoryId = item.id })">
+                                        @Html.DisplayFor(modelItem => item.name)<br /> Collection
+                                    </a>
+                                </h4>
+                                <a href="@Url.Action("ShopByCategory", "Home", new { categoryId = item.id })" class="browse-btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+
+
+
+    @*my you like section*@
+    <section class="latest-items section-padding fix">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="section-tittle text-center mb-40">
+                    <h2>You May Like</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="latest-items-active">
+
+                <div class="properties pb-30">
+                    <div class="properties-card">
+                        <div class="properties-img">
+                            <a href="pro-details.html"><img src="~/assests/img/gallery/bracelets_Product1.png"></a>
+                            
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="properties pb-30">
+                    <div class="properties-card">
+                        <div class="properties-img">
+                            <a href="pro-details.html"><img src="~/assests/img/gallery/earings_Product2.png"></a>
+                           
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="properties pb-30">
+                    <div class="properties-card">
+                        <div class="properties-img">
+                            <a href="pro-details.html"><img src="~/assests/img/gallery/bracelets_Product2.png "></a>
+                         
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="properties pb-30">
+                    <div class="properties-card">
+                        <div class="properties-img">
+                            <a href="pro-details.html"><img src="~/assests/img/gallery/necklace_Product2.png"></a>
+                          
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="properties pb-30">
+                    <div class="properties-card">
+                        <div class="properties-img">
+                            <a href="pro-details.html"><img src="~/assests/img/gallery/necklace_Product1.png" /> </a>
+                          
+                        </div>
+                     
+                    </div>
+                </div>
+
+                <div class="properties pb-30">
+                    <div class="properties-card">
+                        <div class="properties-img">
+                            <a href="pro-details.html"><img src="~/assests/img/gallery/earings_Product1.png"></a>
+                            
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="properties pb-30">
+                    <div class="properties-card">
+                        <div class="properties-img">
+                            <a href="pro-details.html"><img src="~/assests/img/gallery/rings_Product1.png"></a>
+                           
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="properties pb-30">
+                    <div class="properties-card">
+                        <div class="properties-img">
+                            <a href="pro-details.html"><img src="~/assests/img/gallery/rings_Product2.png"></a>
+                           
+                        </div>
+                       
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    @*testimonial*@
+    <div class="testimonial-area testimonial-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-10 col-lg-10 col-md-11">
+                    <div class="h1-testimonial-active">
+
+                        <div class="single-testimonial text-center">
+                            <div class="testimonial-caption ">
+                                <div class="testimonial-top-cap">
+                                    <h2>Customer Testimonial</h2>
+                                    <p>Everybody is different, which is why we offer styles for every body. Laborum fuga incidunt laboriosam voluptas iure, delectus dignissimos facilis neque nulla earum.</p>
+                                </div>
+
+                                <div class="testimonial-founder d-flex align-items-center justify-content-center">
+                                    <div class="founder-img">
+                                        <img src="~/assests/img/gallery/founder-img.png">
+                                    </div>
+                                    <div class="founder-text">
+                                        <span>Petey Cruiser</span>
+                                        <p>Designer at Colorlib</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="single-testimonial text-center">
+                            <div class="testimonial-caption ">
+                                <div class="testimonial-top-cap">
+                                    <h2>Customer Testimonial</h2>
+                                    <p>Everybody is different, which is why we offer styles for every body. Laborum fuga incidunt laboriosam voluptas iure, delectus dignissimos facilis neque nulla earum.</p>
+                                </div>
+
+                                <div class="testimonial-founder d-flex align-items-center justify-content-center">
+                                    <div class="founder-img">
+                                        <img src="~/assests/img/gallery/founder-img.png">
+                                    </div>
+                                    <div class="founder-text">
+                                        <span>Petey Cruiser</span>
+                                        <p>Designer at Colorlib</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="categories-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-cat mb-50 wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay=".2s">
+                        <div class="cat-icon">
+                            <img src="~/assests/img/icon/services1.svg">
+                        </div>
+                        <div class="cat-cap">
+                            <h5>Fast & Free Delivery</h5>
+                            <p>Free delivery on all orders</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-cat mb-50 wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay=".2s">
+                        <div class="cat-icon">
+                            <img src="~/assests/img/icon/services2.svg">
+                        </div>
+                        <div class="cat-cap">
+                            <h5>Secure Payment</h5>
+                            <p>Free delivery on all orders</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-cat mb-50 wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="cat-icon">
+                            <img src="~/assests/img/icon/services3.svg">
+                        </div>
+                        <div class="cat-cap">
+                            <h5>Money Back Guarantee</h5>
+                            <p>Free delivery on all orders</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-cat mb-50 wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div class="cat-icon">
+                            <img src="~/assests/img/icon/services4.svg">
+                        </div>
+                        <div class="cat-cap">
+                            <h5>Online Support</h5>
+                            <p>Free delivery on all orders</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

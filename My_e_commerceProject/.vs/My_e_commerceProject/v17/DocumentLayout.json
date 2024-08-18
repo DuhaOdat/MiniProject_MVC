@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\source\\repos\\My_e_commerceProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8E15C5-2C2C-47EE-BD79-660FD32AC6E0}|My_e_commerceProject\\My_e_commerceProject.csproj|c:\\users\\orange\\source\\repos\\my_e_commerceproject\\my_e_commerceproject\\views\\shared\\_layoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C8E15C5-2C2C-47EE-BD79-660FD32AC6E0}|My_e_commerceProject\\My_e_commerceProject.csproj|solutionrelative:my_e_commerceproject\\views\\shared\\_layoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8E15C5-2C2C-47EE-BD79-660FD32AC6E0}|My_e_commerceProject\\My_e_commerceProject.csproj|c:\\users\\orange\\source\\repos\\my_e_commerceproject\\my_e_commerceproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C8E15C5-2C2C-47EE-BD79-660FD32AC6E0}|My_e_commerceProject\\My_e_commerceProject.csproj|solutionrelative:my_e_commerceproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8E15C5-2C2C-47EE-BD79-660FD32AC6E0}|My_e_commerceProject\\My_e_commerceProject.csproj|c:\\users\\orange\\source\\repos\\my_e_commerceproject\\my_e_commerceproject\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C8E15C5-2C2C-47EE-BD79-660FD32AC6E0}|My_e_commerceProject\\My_e_commerceProject.csproj|solutionrelative:my_e_commerceproject\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8E15C5-2C2C-47EE-BD79-660FD32AC6E0}|My_e_commerceProject\\My_e_commerceProject.csproj|c:\\users\\orange\\source\\repos\\my_e_commerceproject\\my_e_commerceproject\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C8E15C5-2C2C-47EE-BD79-660FD32AC6E0}|My_e_commerceProject\\My_e_commerceProject.csproj|solutionrelative:my_e_commerceproject\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8E15C5-2C2C-47EE-BD79-660FD32AC6E0}|My_e_commerceProject\\My_e_commerceProject.csproj|c:\\users\\orange\\source\\repos\\my_e_commerceproject\\my_e_commerceproject\\views\\home\\editpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C8E15C5-2C2C-47EE-BD79-660FD32AC6E0}|My_e_commerceProject\\My_e_commerceProject.csproj|solutionrelative:my_e_commerceproject\\views\\home\\editpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8E15C5-2C2C-47EE-BD79-660FD32AC6E0}|My_e_commerceProject\\My_e_commerceProject.csproj|c:\\users\\orange\\source\\repos\\my_e_commerceproject\\my_e_commerceproject\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C8E15C5-2C2C-47EE-BD79-660FD32AC6E0}|My_e_commerceProject\\My_e_commerceProject.csproj|solutionrelative:my_e_commerceproject\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8E15C5-2C2C-47EE-BD79-660FD32AC6E0}|My_e_commerceProject\\My_e_commerceProject.csproj|c:\\users\\orange\\source\\repos\\my_e_commerceproject\\my_e_commerceproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8E15C5-2C2C-47EE-BD79-660FD32AC6E0}|My_e_commerceProject\\My_e_commerceProject.csproj|solutionrelative:my_e_commerceproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\source\\repos\\My_e_commerceProject\\My_e_commerceProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "My_e_commerceProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\source\\repos\\My_e_commerceProject\\My_e_commerceProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "My_e_commerceProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T20:19:46.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\source\\repos\\My_e_commerceProject\\My_e_commerceProject\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "My_e_commerceProject\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\source\\repos\\My_e_commerceProject\\My_e_commerceProject\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "My_e_commerceProject\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T20:01:47.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LayoutPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\source\\repos\\My_e_commerceProject\\My_e_commerceProject\\Views\\Shared\\_LayoutPage.cshtml",
+              "RelativeDocumentMoniker": "My_e_commerceProject\\Views\\Shared\\_LayoutPage.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\source\\repos\\My_e_commerceProject\\My_e_commerceProject\\Views\\Shared\\_LayoutPage.cshtml",
+              "RelativeToolTip": "My_e_commerceProject\\Views\\Shared\\_LayoutPage.cshtml",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAAHUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T19:26:11.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\source\\repos\\My_e_commerceProject\\My_e_commerceProject\\Views\\Home\\EditPassword.cshtml",
+              "RelativeDocumentMoniker": "My_e_commerceProject\\Views\\Home\\EditPassword.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\source\\repos\\My_e_commerceProject\\My_e_commerceProject\\Views\\Home\\EditPassword.cshtml",
+              "RelativeToolTip": "My_e_commerceProject\\Views\\Home\\EditPassword.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAwAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T19:22:48.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\source\\repos\\My_e_commerceProject\\My_e_commerceProject\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "My_e_commerceProject\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\source\\repos\\My_e_commerceProject\\My_e_commerceProject\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "My_e_commerceProject\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T19:22:16.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\source\\repos\\My_e_commerceProject\\My_e_commerceProject\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "My_e_commerceProject\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\source\\repos\\My_e_commerceProject\\My_e_commerceProject\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "My_e_commerceProject\\Views\\Home\\Details.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAwB4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T19:22:06.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\source\\repos\\My_e_commerceProject\\My_e_commerceProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "My_e_commerceProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Orange\\source\\repos\\My_e_commerceProject\\My_e_commerceProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "My_e_commerceProject\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAvwEIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T14:21:40.037Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

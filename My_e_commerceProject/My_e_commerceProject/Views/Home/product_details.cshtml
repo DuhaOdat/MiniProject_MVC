@@ -1,0 +1,76 @@
+﻿@model My_e_commerceProject.Models.product
+
+@{
+    ViewBag.Title = "product_details";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+
+<main>
+
+    <div class="hero-area section-bg2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="slider-area">
+                        <div class="slider-height2 slider-bg4 d-flex align-items-center justify-content-center">
+                            <div class="hero-caption hero-caption2">
+                                <h2>Product Details</h2>
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb justify-content-center">
+                                        <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="#">Product Details</a></li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="services-area2 pt-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="row">
+                       
+                            <div class="col-xl-12">
+
+                                <div class="single-services d-flex align-items-center mb-0">
+                                    <div class="features-img">
+                                        <img src="~/Images/@Model.image_url">
+                                    </div>
+                                    <div class="features-caption">
+                                        <h3>@Model.name</h3>
+                                        <p>@Model.description</p>
+                                        <div class="price">
+                                            <span>@Model.price</span>
+                                        </div>
+                                        <div class="review">
+                                            <div class="rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <p>(120 Review)</p>
+                                        </div>
+                                        <a href="#" class="white-btn mr-10">Add to Cart</a>
+                                         </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+</main>

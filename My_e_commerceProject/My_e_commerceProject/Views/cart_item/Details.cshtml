@@ -1,0 +1,43 @@
+﻿@model My_e_commerceProject.Models.cart_item
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>cart_item</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cart.id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cart.id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.product.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.product.name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,110 @@
+﻿@model IEnumerable<My_e_commerceProject.Models.product>
+
+@{
+    ViewBag.Title = "shop";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+
+
+<main>
+
+    <div class="hero-area section-bg2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="slider-area">
+                        <div class="slider-height2 slider-bg4 d-flex align-items-center justify-content-center">
+                            <div class="hero-caption hero-caption2">
+                                <h2>Products</h2>
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb justify-content-center">
+                                        <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="#">Shop</a></li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="listing-area pt-50 pb-50">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xl-3 col-lg-4 col-md-4">
+
+                    <div class="category-listing mb-50">
+
+                        <div class="single-listing">
+
+                            <div class="select-Categories pb-30">
+                                <div class="select-job-items2 mb-30">
+                                    <div class="col-xl-12">
+                                        <select name="select2">
+                                            <option value>Category</option>
+                                            <option value>Category 1</option>
+                                            <option value>Category 2</option>
+                                            <option value>Category 3</option>
+                                            <option value>Category 4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                
+                    <div class="col-xl-9 col-lg-8 col-md-8">
+                        <div class="latest-items latest-items2">
+                            <div class="row">
+                                @foreach (var item in Model)
+                                {
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                                        <div class="properties pb-30">
+
+                                            <div class="properties-card">
+
+                                                <div class="properties-img">
+                                                    <a href="pro-details.html"><img src="~/Images/@item.image_url">  </a>
+                                                    <div class="socal_icon">
+                                                        <a href="@Url.Action("AddToCart", "Home",new { id = item.id })"><i class="ti-shopping-cart"></i></a>
+                                                        @*@Html.ActionLink("Edit", "Edit", new { id = item.id })*@
+                                                        <a href="@Url.Action("product_details", "Home",new { id = item.id })"><i class="ti-zoom-in"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="properties-caption properties-caption2">
+                                                    <h3><a href="pro-details.html">@item.name</a></h3>
+                                                    <div class="properties-footer">
+                                                        <div class="price">
+                                                            <span>@item.price </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                }
+
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+        </div>
+    </div>
+
+</main>
+
+
+
+
+

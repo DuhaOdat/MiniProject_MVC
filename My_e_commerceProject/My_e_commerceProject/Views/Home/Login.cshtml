@@ -1,0 +1,52 @@
+﻿@model My_e_commerceProject.Models.user
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+
+<main>
+
+    <div class="login-form-area">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+        <div class="login-form">
+
+            <div class="login-heading">
+                <span>Login</span>
+                <p>Enter Login details to get access</p>
+            </div>
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="input-box">
+
+
+                <div class="single-input-fields">
+                    @Html.LabelFor(model => model.email, htmlAttributes: new { @class = "" })
+                    @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "", placeholder = "Enter email address" } })
+                    @Html.ValidationMessageFor(model => model.email, "", new { @class = "text-danger" })
+
+                </div>
+                <div class="single-input-fields">
+                    @Html.LabelFor(model => model.password, htmlAttributes: new { @class = "" })
+                    @Html.EditorFor(model => model.password, new { htmlAttributes = new { @class = "", placeholder = "Enter password" } })
+                    @Html.ValidationMessageFor(model => model.password, "", new { @class = "text-danger" })
+                </div>
+                <div class="login-footer">
+                    <p>Don’t have an account? @Html.ActionLink("Sign Up", "Register", "Home") here</p>
+                    <button class="submit-btn3">Login</button>
+                </div>
+            </div>
+
+
+        </div>
+        }
+    </div>
+
+
+</main>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

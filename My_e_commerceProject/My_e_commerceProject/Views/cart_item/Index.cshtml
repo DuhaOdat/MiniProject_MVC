@@ -1,0 +1,46 @@
+﻿@model IEnumerable<My_e_commerceProject.Models.cart_item>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cart.id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.product.name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cart.id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.product.name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

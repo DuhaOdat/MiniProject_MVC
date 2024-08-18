@@ -1,0 +1,57 @@
+﻿@model My_e_commerceProject.Models.user
+
+@{
+    ViewBag.Title = "Register";
+}
+
+<main >
+
+    <div class="register-form-area">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="register-form text-center">
+                <div class="register-heading">
+                    <span>Sign Up</span>
+                    <p>Create your account to get full access</p>
+                </div>
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="input-box">
+                
+
+                <div class="single-input-fields">
+                    @Html.LabelFor(model => model.email, htmlAttributes: new { @class = "" })
+                    @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "", placeholder = "Enter email address" } })
+                    @Html.ValidationMessageFor(model => model.email, "", new { @class = "text-danger" })
+
+                </div>
+                <div class="single-input-fields">
+                    @Html.LabelFor(model => model.password, htmlAttributes: new { @class = "" })
+                    @Html.EditorFor(model => model.password, new { htmlAttributes = new { @class = "", placeholder = "Enter password" } })
+                    @Html.ValidationMessageFor(model => model.password, "", new { @class = "text-danger" })
+                </div>
+                <div class="single-input-fields">
+                    <label>Confirm Password</label>
+                    <input type="password" name="confirmpassword" placeholder="Confirm Password">
+
+
+                </div>
+            </div>
+
+            <div class="register-footer">
+                <p> Already have an account?  @Html.ActionLink("Login", "Login", "Home")  here</p>
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+                </div>
+                }
+            </div>
+
+
+</main>
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
